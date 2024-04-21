@@ -1,9 +1,11 @@
 body {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
+
+/* header section add */
 
 .header {
     background-image: url(../images/banner/banner2.png);
@@ -12,6 +14,7 @@ body {
     background-position: center;
     padding: 220px 230px;
     margin-left: auto;
+    margin-bottom: 140px;
 }
 
 .header-title {
@@ -47,4 +50,98 @@ body {
     font-weight: 600;
     float: right;
     margin-bottom: 170px;
+}
+
+/* main section start */
+
+main {
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.colum {
+    display: flex;
+    gap: 100px;
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+#space {
+    margin-top: 200px;
+    width: 288px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 145px;
+}
+
+.section-description {
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.check-mark {
+    display: flex;
+    gap: 5px;
+    justify-content: left;
+}
+
+.f-list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.plan-list {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.list-img {
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    margin-bottom: 130px;
+}
+
+.white-title {
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 65px;
+}
+
+.white-btn {
+    margin: 25px 0px 60px 65px;
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
